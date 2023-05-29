@@ -1,0 +1,154 @@
+<!--
+    copyright jacky kuang
+    no distribution otherwise you are inbreach of federal law
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="math.min.js"></script>
+    <script src="p5.js"></script>
+    <script src="game_state.js"></script>
+    <script src="game_objects.js"></script>
+    <script src="player.js"></script>
+    <script src='save_file.js'></script>
+    <script src='index.js'></script>
+    <title>strategy game</title>
+</head>
+<body style="margin: 0; padding: 0;">
+</body>
+
+<!--
+strategy is how each player effectively uses their acions points to prepare and get more stuff
+progression should not means that earlier items are useless
+
+items to protect the base
+or you can choose to go out
+choice to camp but not getting more resrouces
+locator to get information on the enemy's items
+how the environment effects the enemy encounter
+various options for fighting
+base shoudls also have interest, more you store mpre it'll increase
+
+fast-get materials fast without waiting for ap interest (attack), waiters-wait until high interest build slow
+game elements should enhance and set off each other/synergize effects of different item combine (many uses)
+
+
+
+turn based:
+game design:
+    tile blocks:
+        everytile block object has different values which will determine how game functions react to it
+        eg. water blocks take more walking action points 
+
+game feature:
+    teleporter is the thing that returns you to base, appearing in the centre of the map, when charged then both
+    players are returned to their base
+    everything round the recharge time increases and map size decreases
+    both players has base which they must protect
+    stored items can be looted from other player's base
+    
+    max load x encumbered, max amount you can bring to each round, infinite store capacity for base
+
+    food has delayed effect
+
+    different environment different materials and dangers
+
+    actions points regeneration ::::
+
+    max inventory 5 or less 
+
+    range of vision: clear 1st range, maybies 2nd range
+    -before round there is a radar which you might be able to point to a certain location on map to see materials
+    or it may be a hostiles radar 
+    thus have to bring the nessisary stuff to get materials and suit for the environment
+
+
+
+an element should be linked to many other elements creating a large range of different uses
+Ideally, every single thing that’'s inside the game should be in direct support of the core mechanism
+Every single element has to serve a particular purpose and have “its place” in the overall game. 
+Instead of offering many game elements with few uses, offer the player few elements with many uses
+proper resourse allocation  
+
+start:
+attacker - weapon-knife - discount for attacking moves
+harvester - larger range of harvest
+fatty - more health less movement - 
+
+attacker>havester>fatty>attacker
+
+all the starting characters must have meaknessess and strategies to overcome those other character
+
+    foresight into the enemies terriory, small section
+    
+death:
+simple hit
+anything
+traps
+
+
+
+movement:
+action pionts:
+use more other person hit more
+
+
+game over:
+soemthing to protect is destroyed
+ending death match
+
+environment:
+    mountains - dig into hiding, dig through tunnel, mountain range blocking sight and path
+    river - moat, fishing with spear, fast tide does damage, hide in water for 1 round 
+    packs or enemy ai groups 
+
+    day night cycle :
+        night - time enemy sleeping lower visibility around but lit bases easily seen, can't gain point
+        day 
+        
+
+items: 
+    wood, chest, walls
+    sticks, build traps, make tools, wall, rope; +rocks - campfire, 
+    rocks/pebbles, make tools, wall
+    dirt, hide thing to protect, throughing it distraction, wall
+
+    tools:
+        shovel, get dirt, make hole, tunneling 
+        pixaxe, getting through mountain
+        axe, make spike trap from wood, 
+
+
+    weapons:
+        spear, hit rocks to see through rock
+        knife, get meat from animals 
+        bow, bow with rope hooks onto pray
+
+crafting:
+    in rounds, more materials, take more action points 
+    between rounds, takes time, regual materials
+
+
+base:
+    you can deploy protection stuff around your base but it would take large amounts of time and maybe resources
+    you can put buildings to reside in temporaly outside of your base - good decoy
+    
+
+strategies:
+    deactivate the teleporter
+    bait the other to use a bunch of stuff to kill you when you have nothing
+
+    attacks and defend strats against such attacks 
+
+    ability to build specialized buildings-workshop, walls, tower, 
+    rethink different strategies when starting new round with nothing.
+
+    turn off the teleporter without the other person knowing 
+    better to craft things in round or between 
+
+    make strategies based on what radar senses, make this or not, do this or not
+
+-->
